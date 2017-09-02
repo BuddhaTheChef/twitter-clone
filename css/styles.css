@@ -129,14 +129,17 @@ body {
 	}
 		#tweet-controls {
 			text-align: right;
+
 		}
 			#tweet-controls div {
-				display: inline-block;
+			display: inline-block;
+
 			}
 			#char-count {
 				font-size: 14px;
 				color: #999;
 				text-shadow: 0 1px 1px rgba(255,255,255,.75);
+				display: none;
 			}
 
 /* TWEET */
@@ -146,6 +149,7 @@ body {
 	border-bottom: 1px solid #e8e8e8;
 	min-height: 60px;
 	border-radius: 6px;
+	overflow-wrap: break-word;
 }
 
 	.tweet .avatar {
@@ -164,6 +168,7 @@ body {
 		color: #333;
 		margin: 10px 0;
 		padding-left: 42px;
+
 	}
 
 	.tweet-actions {
@@ -258,5 +263,3 @@ body {
 				top: 0;
 				left: 0;
 			}
-
-
